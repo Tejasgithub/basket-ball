@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("CursedTimer.ttf");
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0C4A6E;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+#header p {
+    font-size: 26px;
+    color: #ECFDF5;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#container h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.same {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.points {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: CursedTimer;
+    background: #111827;
+    margin: 20px 0;
+}
+
+#homepoints, #guestpoints {
+    margin: 0;
+    color: #E11D48;
+    font-size: 50px;
+}
+
+.same button {
+    font-family: CursedTimer;
+    color: #9AABD8;
+    font-size: 14px;
+    background: #0C4A6E;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.same button:nth-child(4) {
+    margin: 0 10px;
+}
+
+#game-reset {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+
+#game-reset button {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #78350F;
+    background-color: #FBBF24;
+    border: 2px solid #F59E0B;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#game-reset button:hover {
+    color: #064E3B;
+    background-color: #34D399;
+    border: 2px solid #10B981;
+}
